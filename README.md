@@ -15,7 +15,7 @@ python -m pip install -r script/requirements.txt
 python script/run.py
 ```
 <br><br>
-*注：默认使用 MicroSoft Edge ；如果您使用Chrome 浏览器，可加 `--channel chrome`（完整命令为下面这个）：*
+*注：默认使用 MicroSoft Edge ；如果您使用 Chrome 浏览器，可加 `--channel chrome`（完整命令为下面这个）：*
 ```powershell
 python script/run.py --channel chrome
 ```
