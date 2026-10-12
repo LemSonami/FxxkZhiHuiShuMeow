@@ -1,5 +1,3 @@
-"""Login, discover smart courses, and report component completion."""
-
 import argparse
 import json
 import math
