@@ -327,7 +327,7 @@ def run(args):
                                 entry = {'before': row, 'outcome': 'pending', 'checkpoints': []}
                                 course['results'].append(entry)
                                 save()
-                                print(f"  喵～看看这个组件：{row['name']}", flush=True)
+                                print(f"  喵～看看这条小鱼干：{row['name']}", flush=True)
                                 def checkpoint(value):
                                     entry['checkpoints'].append(value)
                                     save()
@@ -384,7 +384,7 @@ def main():
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, 'reconfigure'):
             stream.reconfigure(encoding='utf-8', errors='replace')
-    parser = argparse.ArgumentParser(description='喵~(๑＞ڡ＜)☆ 登录后自动处理账号下全部智慧课程组件')
+    parser = argparse.ArgumentParser(description='喵~(๑＞ڡ＜)☆ 登录后自动吃掉账号下全部小鱼干')
     parser.add_argument('--interval', type=float, default=1, help='上报批次间隔秒数，默认 1 秒喵')
     parser.add_argument('--channel', choices=('msedge', 'chrome', 'chromium'), default='msedge',
                         help='选择浏览器，默认 Edge 喵')
