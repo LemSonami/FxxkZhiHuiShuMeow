@@ -1,5 +1,8 @@
 # [fxxkZhiHuiShuMeow] Sonamiの智慧树智慧课程刷课脚本
 
+分支版本：[mhpmc/ZhiHuiShuMeow2.0](https://github.com/mhpmc/ZhiHuiShuMeow2.0)<br>
+在本项目的智慧课程刷课功能上，额外集成了翻转课的刷客功能。
+
 ## 前置库依赖安装
 
 ![在终端中打开](figure/ps.png)
